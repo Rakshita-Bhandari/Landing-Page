@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1c1c1c;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00f2fe;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00f2fe;
+}
+
+/* Landing Section */
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #1a1a1a, #333333);
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  color: #00f2fe;
+}
+
+.content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn, .btn-outline {
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.btn {
+  background-color: #00f2fe;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #00c8d7;
+}
+
+.btn-outline {
+  border: 2px solid #00f2fe;
+  color: #00f2fe;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: #00f2fe;
+  color: #000;
+}
+
+/* Skills Section */
+.skills {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00f2fe;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.skill-box:hover {
+  background-color: #00f2fe;
+  color: #000;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #00f2fe;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
